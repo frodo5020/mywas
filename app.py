@@ -17,7 +17,7 @@ app.secret_key = 'frodo'
 #Session(app)
 
 # MySQL 설정
-app.config['MYSQL_HOST'] = '192.168.56.100' #DB iP
+app.config['MYSQL_HOST'] = 'db.cloud.local' #DB iP
 app.config['MYSQL_USER'] = 'frodo'
 app.config['MYSQL_PASSWORD'] = 'Frodo5020!!'
 app.config['MYSQL_DB'] = 'frodo'
